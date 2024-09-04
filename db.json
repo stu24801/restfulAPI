@@ -1,156 +1,121 @@
-    {
-        "customerInfo": {
-            "responseBody": {
-                "model": {
-                    "bodyDTO": {
-                        "custNam": "測試客",
-                        "riskTolLvl": "04",
-                        "riskTolLvlExpir": "N",
-                        "mbrLvl": "Z",
-                        "spclCust": "3,4",
-                        "branchId": "0093",
-                        "proInvr": "Y(1)",
-                        "proInvrExpir": "N",
-                        "advisorNo": "03956 ",
-                        "finCtgStk": "D",
-                        "proInvrMrk": "2",
-                        "mbrLvlForETF": " ",
-                        "spclCustForETF": "Y",
-                        "spclCustItem": "NNYYNNNNNNNNNNNNNNNNNNNNNNNNNN",
-                        "mobile": "0922222222",
-                        "email": "CHARLIE-18633@ESUNBANK.COM",
-                        "attnCust": "N",
-                        "deadFlag": "N",
-                        "ctyTyp": "TW",
-                        "custPpTypCde": "0",
-                        "finCtgWise": "DBU",
-                        "feeNegoData": [],
-                        "checkInfo": [],
-                        "eTxYn": "Y",
-                        "ynHavePib": "N",
-                        "cstmrUpdYn": "N",
-                        "ynTerrorist": "N",
-                        "ynPsnlDtaQry": "N",
-                        "lastTimeCifRiskLvl": "04",
-                        "kycTestDate": "2023/09/21 10:24:47",
-                        "wiseNonProInvestorSignStatus": "已簽署",
-                        "adultGuardYn": "N",
-                        "resultList": [],
-                        "txControlMrk": "N"
-                    },
-                    "userDTO": null,
-                    "loginToken": null
-                }
-            },
-            "responseHeader": {
-                "msgNo": "141FA4E91BFA46CF99917F81C5230BB6",
-                "txnTime": "2024-08-30 09:08:10",
-                "senderCode": "wcp-auth",
-                "receiverCode": "wcp-pkgTx",
-                "operatorCode": "19446",
-                "unitCode": "B144",
-                "authorizerCode": null,
-                "keyCloakToken": "XXXXXXXXXXXXXXXXXXXXXX",
-                "ipAddress": "10.101.96.96",
-                "sysId": "TS0150",
-                "errorCode": "0000",
-                "errorDesc": null,
-                "errorSysId": null,
-                "txnCode": "savePktBBuy"
-            }
-        },
-        "prodInfo": {
-            "responseBody": {
-                "model": {
-                    "bodyDTO": [
-                        {
-                            "prdCde": "XJ52",
-                            "prdNam": "瀚亞投信－Ｍ＆Ｇ收益優化基金Ｘ",
-                            "pvdCde": "XJ",
-                            "pvdNam": "瀚亞投信",
-                            "prdRsk": "RR5",
-                            "basCurr": "USD",
-                            "nFeeRate": "0.01",
-                            "onSale": "Y",
-                            "rgnCtg": "FNDF",
-                            "untDcmlLsd": "3"
-                        },
-                        {
-                            "prdCde": "UFD4",
-                            "prdNam": "鋒裕匯理基金領先歐洲企業股票U歐元",
-                            "pvdCde": "UF",
-                            "pvdNam": "鋒裕匯理",
-                            "prdRsk": "RR5",
-                            "basCurr": "USD",
-                            "nFeeRate": "0.01",
-                            "onSale": "Y",
-                            "rgnCtg": "FNDF",
-                            "untDcmlLsd": "3"
-                        },
-                        {
-                            "prdCde": "9118",
-                            "prdNam": "路博邁5G股票基金N累積(人民幣)",
-                            "pvdCde": "91",
-                            "pvdNam": "瀚亞投信",
-                            "prdRsk": "RR2",
-                            "basCurr": "CNY",
-                            "nFeeRate": "0.01",
-                            "onSale": "Y",
-                            "rgnCtg": "FNDF",
-                            "untDcmlLsd": "3"
-                        },
-                        {
-                            "prdCde": "XJ54",
-                            "prdNam": "瀚亞投信－Ｍ＆Ｇ收益優化基54",
-                            "pvdCde": "XJ",
-                            "pvdNam": "瀚亞投信",
-                            "prdRsk": "RR5",
-                            "basCurr": "USD",
-                            "nFeeRate": "0.01",
-                            "onSale": "Y",
-                            "rgnCtg": "FNDF",
-                            "untDcmlLsd": "3"
-                        },
-                        {
-                            "prdCde": "XJ55",
-                            "prdNam": "瀚亞投信－Ｍ＆Ｇ收益優化基金55",
-                            "pvdCde": "XJ",
-                            "pvdNam": "瀚亞投信",
-                            "prdRsk": "RR5",
-                            "basCurr": "USD",
-                            "nFeeRate": "0.01",
-                            "onSale": "Y",
-                            "rgnCtg": "FNDF",
-                            "untDcmlLsd": "3"
-                        },
-
-                    ],
-                    "userDTO": null,
-                    "loginToken": null
-                }
-            },
-            "responseHeader": {
-                "msgNo": "141FA4E91BFA46CF99917F81C5230BB6",
-                "txnTime": "2024-08-30 09:03:49",
-                "senderCode": "wcp-auth",
-                "receiverCode": "wcp-pkgTx",
-                "operatorCode": "19446",
-                "unitCode": "B144",
-                "authorizerCode": null,
-                "keyCloakToken": "XXXXXXXXXXXXXXXXXXXXXX",
-                "ipAddress": "10.101.96.96",
-                "sysId": "TS0150",
-                "errorCode": "0000",
-                "errorDesc": null,
-                "errorSysId": null,
-                "txnCode": "savePktBBuy"
-            }
-        },
-        "riskCheck": {
-            "requestModel": null, "resultCode": "0000", "resultDescription": "交易成功", "resultBody": {
-                "model": {
-                    "result": true
-                }
-            }
-        }
+{
+    "customerInfo": {
+      "responseBody": {
+          "model": {
+              "bodyDTO": {
+                  "custNam": "測試客",
+                  "riskTolLvl": "04",
+                  "riskTolLvlExpir": "N",
+                  "mbrLvl": "Z",
+                  "spclCust": "3,4",
+                  "branchId": "0093",
+                  "proInvr": "Y(1)",
+                  "proInvrExpir": "N",
+                  "advisorNo": "03956 ",
+                  "finCtgStk": "D",
+                  "proInvrMrk": "2",
+                  "mbrLvlForETF": " ",
+                  "spclCustForETF": "Y",
+                  "spclCustItem": "NNYYNNNNNNNNNNNNNNNNNNNNNNNNNN",
+                  "mobile": "0922222222",
+                  "email": "CHARLIE-18633@ESUNBANK.COM",
+                  "attnCust": "N",
+                  "deadFlag": "N",
+                  "ctyTyp": "TW",
+                  "custPpTypCde": "0",
+                  "finCtgWise": "DBU",
+                  "feeNegoData": "",
+                  "checkInfo": "",
+                  "eTxYn": "Y",
+                  "ynHavePib": "N",
+                  "cstmrUpdYn": "N",
+                  "ynTerrorist": "N",
+                  "ynPsnlDtaQry": "N",
+                  "lastTimeCifRiskLvl": "04",
+                  "kycTestDate": "2023/09/21 10:24:47",
+                  "wiseNonProInvestorSignStatus": "已簽署",
+                  "adultGuardYn": "N",
+                  "resultList": "",
+                  "txControlMrk": "N"
+              },
+              "userDTO": "null", 
+              "loginToken": "null"
+          }
+      }
+    },
+    "prodInfo": {
+      "responseBody": {
+          "model": {
+              "bodyDTO":
+              [{
+                  "prdCde": "XJ52",
+                  "prdNam": "瀚亞投信－Ｍ＆Ｇ收益優化基金Ｘ",
+                  "pvdCde": "XJ",
+                  "pvdNam": "瀚亞投信",
+                  "prdRsk": "RR5",
+                  "basCurr": "USD",
+                  "nFeeRate": "0.01",
+                  "onSale": "Y",
+                  "rgnCtg": "FNDF",
+                  "untDcmlLsd": "3"
+              },
+              {
+                  "prdCde": "UFD4",
+                  "prdNam": "鋒裕匯理基金領先歐洲企業股票U歐元",
+                  "pvdCde": "UF",
+                  "pvdNam": "鋒裕匯理",
+                  "prdRsk": "RR5",
+                  "basCurr": "USD",
+                  "nFeeRate": "0.01",
+                  "onSale": "Y",
+                  "rgnCtg": "FNDF",
+                  "untDcmlLsd": "3"
+              },
+              {
+                  "prdCde": "9118",
+                  "prdNam": "路博邁5G股票基金N累積(人民幣)",
+                  "pvdCde": "91",
+                  "pvdNam": "瀚亞投信",
+                  "prdRsk": "RR2",
+                  "basCurr": "CNY",
+                  "nFeeRate": "0.01",
+                  "onSale": "Y",
+                  "rgnCtg": "FNDF",
+                  "untDcmlLsd": "3"
+              },
+              {
+                  "prdCde": "XJ54",
+                  "prdNam": "瀚亞投信－Ｍ＆Ｇ收益優化基54",
+                  "pvdCde": "XJ",
+                  "pvdNam": "瀚亞投信",
+                  "prdRsk": "RR5",
+                  "basCurr": "USD",
+                  "nFeeRate": "0.01",
+                  "onSale": "Y",
+                  "rgnCtg": "FNDF",
+                  "untDcmlLsd": "3"
+              },
+              {
+                  "prdCde": "XJ55",
+                  "prdNam": "瀚亞投信－Ｍ＆Ｇ收益優化基金55",
+                  "pvdCde": "XJ",
+                  "pvdNam": "瀚亞投信",
+                  "prdRsk": "RR5",
+                  "basCurr": "USD",
+                  "nFeeRate": "0.01",
+                  "onSale": "Y",
+                  "rgnCtg": "FNDF",
+                  "untDcmlLsd": "3"
+              }]
+            
+          },
+      }
+    },
+    "riskCheck": {
+      "requestModel": "null", "resultCode": "0000", "resultDescription": "交易成功", "resultBody": {
+          "model": {
+              "result": "true"
+          }
+      }
     }
+}
